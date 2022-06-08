@@ -32,11 +32,11 @@ namespace GarbledCheck
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.objectListView1 = new BrightIdeasSoftware.ObjectListView();
-            this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.olvColumn1 = ((BrightIdeasSoftware.OLVColumn)(new BrightIdeasSoftware.OLVColumn()));
             this.olvColumn2 = ((BrightIdeasSoftware.OLVColumn)(new BrightIdeasSoftware.OLVColumn()));
             this.olvColumn3 = ((BrightIdeasSoftware.OLVColumn)(new BrightIdeasSoftware.OLVColumn()));
+            this.label2 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.objectListView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -82,6 +82,24 @@ namespace GarbledCheck
             this.objectListView1.UseCompatibleStateImageBehavior = false;
             this.objectListView1.View = System.Windows.Forms.View.Details;
             // 
+            // olvColumn1
+            // 
+            this.olvColumn1.AspectName = "SourceEncodingInfo";
+            this.olvColumn1.Text = "SourceEncodingInfo";
+            this.olvColumn1.Width = 272;
+            // 
+            // olvColumn2
+            // 
+            this.olvColumn2.AspectName = "TargetEncodingInfo";
+            this.olvColumn2.Text = "TargetEncodingInfo";
+            this.olvColumn2.Width = 301;
+            // 
+            // olvColumn3
+            // 
+            this.olvColumn3.AspectName = "ConversionString";
+            this.olvColumn3.Text = "ConversionString";
+            this.olvColumn3.Width = 633;
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -101,24 +119,6 @@ namespace GarbledCheck
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // olvColumn1
-            // 
-            this.olvColumn1.AspectName = "SourceEncodingInfo";
-            this.olvColumn1.Text = "SourceEncodingInfo";
-            this.olvColumn1.Width = 272;
-            // 
-            // olvColumn2
-            // 
-            this.olvColumn2.AspectName = "TargetEncodingInfo";
-            this.olvColumn2.Text = "TargetEncodingInfo";
-            this.olvColumn2.Width = 301;
-            // 
-            // olvColumn3
-            // 
-            this.olvColumn3.AspectName = "ConversionString";
-            this.olvColumn3.Text = "ConversionString";
-            this.olvColumn3.Width = 633;
-            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -130,7 +130,7 @@ namespace GarbledCheck
             this.Controls.Add(this.label1);
             this.Controls.Add(this.richTextBox1);
             this.Name = "Form2";
-            this.Text = "Form2";
+            this.Text = "Goldarch 中文乱码-编码检查工具";
             ((System.ComponentModel.ISupportInitialize)(this.objectListView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
