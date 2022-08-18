@@ -31,6 +31,6 @@ public static Encoding GetEncoding(string filename)
     return Encoding.ASCII;
 }
 
-相关的讨论：
+相关的讨论：  
 https://stackoverflow.com/questions/4942825/xdocument-saving-xml-to-file-without-bom
 https://www.codeproject.com/Articles/5302027/Removing-a-BOMB-from-Your-Text
